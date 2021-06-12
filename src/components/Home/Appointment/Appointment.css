@@ -1,0 +1,35 @@
+.appointment-container{
+    background-image: url('../../../images/appointment2.png');
+    height:420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    position: relative;
+}
+.appointment-container::before{
+    background-color:#3A4256;
+    display: block;
+    height:100%;
+    width:100%;
+    position: absolute;
+    content:' ';
+    opacity:0.8;
+    top:0;
+
+}
+.img{
+    height: 550px;
+    transform: translateY(-130px);
+    position:absolute;
+}
+.container-description{
+    z-index: 1;
+}
+.container-description h5{
+   color: rgb(14, 230, 194);
+}
+.container-description button{
+    background-color: rgb(15, 186, 158);
+    color:white;
+}
